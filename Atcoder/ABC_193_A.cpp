@@ -2,22 +2,22 @@
 using namespace std;
 #define int long long int
 #define pb push_back
-#define io ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
+
+#define fastio ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
 
 void solve()
 {
-  int a,b;
+  int a,b,c;
   cin>>a>>b;
 
   int d= a-b;
   double c = double(d)/a;
   //cout<<c<<endl;
-  cout<<fixed<<setprecision(2)<<c*100.0<<endl;
 }
 
 int32_t main()
 {
-  io;
+  fastio;
   int t;
   t=1;
   //cin>>t;
