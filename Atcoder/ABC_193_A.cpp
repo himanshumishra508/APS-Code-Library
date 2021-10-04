@@ -2,7 +2,8 @@
 using namespace std;
 #define int long long int
 #define pb push_back
-#define io ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
+#define mod 1007
+#define fastio ios_base::sync_with_stdio(false);cin.tie(NULL);cout.tie(NULL)
 
 void solve()
 {
@@ -17,7 +18,7 @@ void solve()
 
 int32_t main()
 {
-  io;
+  fastio;
   int t;
   t=1;
   //cin>>t;
